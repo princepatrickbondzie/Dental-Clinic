@@ -1,5 +1,11 @@
-DentalClinic base url `https://dull-gold-coati-boot.cyclic.app/api`
+## DentalClinic Backend
 
+To get started run `npm install`, to install all packages.
+
+In the project directory, run `nodemon` to start server.
+
+
+DentalClinic base url `https://dull-gold-coati-boot.cyclic.app/api`
 
 ## Doctor
 Get all doctors: `/doctors`
@@ -15,3 +21,25 @@ Add a plan: `/plan`
 Update a plan: `/plan/id`
 Delete a plan: `/plan`
 
+## Service 
+Get all plans: `/servicies`
+Get a particular plan: `/service/id`
+Add a plan: `/service`
+Update a plan: `/service/id`
+Delete a plan: `/service`
+
+## Article
+Get all articles: `/articles`
+Get a particular plan: `/article/id`
+Add a plan: `/article`
+Update a plan: `/article/id`
+Delete a plan: `/article`
+
+## TimeTable
+Get all timetables: `/timetables`
+Get a particular timetable: `/timetable/id`
+Add a plan: `/timetable`
+Update a plan: `/timetable/id`
+Delete a plan: `/timetable`
+
+## 
