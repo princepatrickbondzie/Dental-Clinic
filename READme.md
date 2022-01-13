@@ -1,7 +1,7 @@
 ## DentalClinic Backend
 
 To get started run `npm install`, to install all packages.
-Create a `.env` file, add the mongodb url and cloudinary keys.
+Create a `.env` file, add the mongodb url and cloudinary variables.
 
 In the project directory, run `nodemon` to start server.
 
