@@ -1,7 +1,7 @@
 const { model, Schema } = require("mongoose");
 
 const planSchema = new Schema(
-  { 
+  {
     name: {
       type: String,
       required: [true, "Name required!"],
@@ -14,10 +14,6 @@ const planSchema = new Schema(
       type: Number,
       required: [true, "Procedures required!"],
     },
-    // pricePerYear: {
-    //   type: String,
-    //   required: [true, "Image required!"],
-    // },
   },
   { timestamps: true }
 );

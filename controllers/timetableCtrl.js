@@ -29,7 +29,6 @@ const createTimetable = async (req, res) => {
     friday,
     saturday,
   });
-  // timetable.save();
   res.status(400).json({ timetable });
   console.log(req.body);
 };
